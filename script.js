@@ -83,14 +83,14 @@
 
  document.write( "<h1>" + "Question 8" + "<br>"  + "</h1>");
 
- var secretNumber = 8;
-  var promptNumber = parseInt(prompt( "Guess the secret number"));
+  var secretNumber = Math.floor(Math.random() * 10) +1;
+  var userNumber = parseInt(prompt("Guess the secret number bettween 1-10"));
 
-if (promptNumber === secretNumber){
-   alert("Congrats! you find the secret number");
-}
+  if(userNumber === secretNumber){
+    alert("Congrats! you guessed the right number");
+  }
  else{
     alert("Try again");
  }
-  
- document.write("Alert Message");
+
+  document.write("Alert Messages");
