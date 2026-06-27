@@ -15,3 +15,15 @@
 //  Question 2
 
   document.write( "<h1>" + "Question 2" + "<br>"  + "</h1>");
+
+  var negNumber = parseFloat(prompt("Enter a negative number"));
+  var roundNumber = Math.round(negNumber);
+  var ceilNumber = Math.ceil(negNumber);
+  var floorNumber = Math.floor(negNumber);
+
+  document.write("Number:" + negNumber + "<br>");
+  document.write("Round off Value:" + roundNumber + "<br>");
+  document.write("Ceil Value is:" + ceilNumber + "<br>");
+  document.write("Floor Value is:" + floorNumber + "<br>");
+
+
