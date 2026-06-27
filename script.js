@@ -26,4 +26,11 @@
   document.write("Ceil Value is:" + ceilNumber + "<br>");
   document.write("Floor Value is:" + floorNumber + "<br>");
 
+//   Question 3
 
+ document.write( "<h1>" + "Question 3" + "<br>"  + "</h1>");
+
+ var value = parseFloat(prompt("Enter a number"));
+ var absValue = Math.abs(value);
+
+ document.write("The absolute Value of " + value + " is: " + absValue); 
