@@ -34,3 +34,15 @@
  var absValue = Math.abs(value);
 
  document.write("The absolute Value of " + value + " is: " + absValue); 
+
+
+//  Question 4
+
+  document.write( "<h1>" + "Question 4" + "<br>"  + "</h1>");
+
+  var dice1 = Math.floor(Math.random() *6) +1;
+  var dice2 = Math.floor(Math.random() *6 ) +1;
+
+  document.write("Random dice value " + dice1 + "<br>")
+  document.write("Random dice value " + dice2 );
+  
