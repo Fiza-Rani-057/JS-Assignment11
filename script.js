@@ -60,4 +60,13 @@
     document.write(coin + "<br>");
     document.write("Random Coin Value: " + coin);
   }
-  
+
+//   Question 6 
+ 
+ document.write( "<h1>" + "Question 6" + "<br>"  + "</h1>");
+
+ var round = Math.floor(Math.random() *100) +1;
+
+ document.write("Random Numbers bettween 1 and 100 are:" + round);
+
+//  Question 7 
