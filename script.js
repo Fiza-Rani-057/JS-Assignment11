@@ -45,4 +45,19 @@
 
   document.write("Random dice value " + dice1 + "<br>")
   document.write("Random dice value " + dice2 );
+
+//   Question 5
+
+ document.write( "<h1>" + "Question 5" + "<br>"  + "</h1>");
+
+ var coin = Math.floor(Math.random() *2) +1;
+ 
+  if(coin === 1){
+    document.write(coin + "<br>");
+    document.write("Random coin Value: " + coin);
+  }
+  else{
+    document.write(coin + "<br>");
+    document.write("Random Coin Value: " + coin);
+  }
   
