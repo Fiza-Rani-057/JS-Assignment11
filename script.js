@@ -70,3 +70,10 @@
  document.write("Random Numbers bettween 1 and 100 are:" + round);
 
 //  Question 7 
+
+  document.write( "<h1>" + "Question 7" + "<br>"  + "</h1>");
+
+  var weight = prompt("Enter your Weight in kilograms");
+  var userWeight = parseFloat(weight);
+
+  document.write("The weight of the user is: " + userWeight);
