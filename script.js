@@ -77,3 +77,20 @@
   var userWeight = parseFloat(weight);
 
   document.write("The weight of the user is: " + userWeight);
+
+
+//   Question 8 
+
+ document.write( "<h1>" + "Question 8" + "<br>"  + "</h1>");
+
+ var secretNumber = 8;
+  var promptNumber = parseInt(prompt( "Guess the secret number"));
+
+if (promptNumber === secretNumber){
+   alert("Congrats! you find the secret number");
+}
+ else{
+    alert("Try again");
+ }
+  
+ document.write("Alert Message");
